@@ -7,361 +7,106 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <title>HTML Academy: PlayHTML. Приветственное письмо</title>
 </head>
-<body>
-  <div>
+<body style="width:100%;padding:0;Margin:0;">
+  <div style="background-color:#ffffff;">
+    <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill type="tile" color="#ffffff;"></v:fill>
+    </v:background>
+    <![endif]-->
+
     <table width="100%" cellspacing="0" cellpadding="0" border="0">
       <tr>
         <td>
-          <!--Логотип-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <!--Общий контейнер с шириной-->
+          <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0"
+            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:600px;">
             <tr>
-              <td>
-                <a href="#" target="_blank" title="Сайт компании">
-                  <img src="img/logo.png" alt="htmlacademy.ru" width="187" height="32" border="0"/>
-                </a>
-              </td>
-            </tr>
-          </table>
-
-          <!--Меню-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <a href="#" target="_blank" title="Все курсы"><b>Курсы</b></a>
-              </td>
-              <td>
-                <a href="#" target="_blank" title="Все вебинары"><b>Вебинары</b></a>
-              </td>
-              <td>
-                <a href="#" target="_blank" title="О школе"><b>О&nbsp;школе</b></a>
-              </td>
-              <td>
-                <a href="#" target="_blank" title="Распродажа"><b>Распродажа</b></a>
-              </td>
-            </tr>
-          </table>
-
-          <!--Приветствие-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <!--Левая часть-->
+              <td style="Margin:0;padding-top:56px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                <!--Логотип-->
                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
-                    <td>
-                      <p><b>Здравствуйте, {{name}}</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Благодарим вас за&nbsp;регистрацию на&nbsp;курс &laquo;Начальный html+css&raquo;.</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Курс стартует 1&nbsp;июля в&nbsp;17.00 по&nbsp;московскому времени. Письма со&nbsp;ссылками для входа в&nbsp;кабинет придут
-                        на&nbsp;указанную почту за&nbsp;день до&nbsp;старта курса.</p>
-                    </td>
-                  </tr>
-                </table>
-
-                <!--Правая часть-->
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <img src="img/man.png" alt="Разработчик" width="175" height="269" border="0"/>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-
-          <!--Описание курса-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <h2><b>Что вас ждет на&nbsp;курсе</b></h2>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Вы&nbsp;будете изучать теорию и&nbsp;методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А&nbsp;применить
-                  полученные знания на&nbsp;практике вы&nbsp;сможете, выполняя задания по&nbsp;личному проекту.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>В&nbsp;этом вам будет помогать наставник&nbsp;&mdash; опытный специалист, который проверит домашние задания и&nbsp;поделится
-                  секретами мастерства. А&nbsp;если у&nbsp;вас останутся вопросы, наставник сможет ответить на&nbsp;них на&nbsp;консультации.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите&nbsp;&mdash; убедиться, что он&nbsp;реализован в&nbsp;соответствии
-                  с&nbsp;техническим заданием.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Желаем вам продуктивной работы на&nbsp;интенсиве и&nbsp;успешной защиты. У&nbsp;вас всё получится, мы&nbsp;в&nbsp;вас верим!</p>
-              </td>
-            </tr>
-          </table>
-
-          <!--Ведущие курса-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <h2><b>Ведущие курса</b></h2>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                        <tr>
-                          <td>
-                            <img src="img/expert-1.png" alt="Ведущий Антон Громов" width="88" height="88" border="0"/>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p><b>Антон Громов</b></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>Фронтенд-разработчик в&nbsp;Cats Development</p>
-                          </td>
-                        </tr>
-                      </table>
-                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                        <tr>
-                          <td>
-                            <img src="img/expert-2.png" alt="Ведущий Илья Раменский" width="88" height="88" border="0"/>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p><b>Илья Раменский</b></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>Team Lead в&nbsp;Lizard Software</p>
-                          </td>
-                        </tr>
-                      </table>
-                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                        <tr>
-                          <td>
-                            <img src="img/expert-3.png" alt="Ведущий Игнатий Чубаров" width="88" height="88" border="0"/>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p><b>Игнатий Чубаров</b></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>Преподаватель IT&nbsp;в&nbsp;РУИТ</p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-
-          <!--Ожидание начала-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <p>Пока вы&nbsp;ждёте начала курса, вам могут быть интересны вебинары на&nbsp;разные темы, которые проходят на&nbsp;платформе
-                  ежедневно.</p>
-              </td>
-            </tr>
-          </table>
-
-          <!--Другие мероприятия-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <h2><b>Другие мероприятия</b></h2>
-              </td>
-            </tr>
-            <!--Мероприятие-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <p><b>Тренды frontend-разработки</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p><b>20&nbsp;июня, 17:00</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Самые многообещающие направления развития фронтенда в&nbsp;2020 году</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <!--Мероприятие-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <p><b>Figma vs&nbsp;Photoshop</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p><b>21&nbsp;июня, 17:00</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Почему давно пора отказаться от&nbsp;последнего?</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <!--Мероприятие-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <p><b>Что такое Git и&nbsp;как его использовать?</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p><b>22&nbsp;июня, 17:00</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Разберем тонкости использования самой популярной системы контроля версий.</p>
+                    <td align="center">
+                      <a href="#" target="_blank" title="Сайт компании">
+                        <img src="img/logo.png" alt="htmlacademy.ru" width="187" height="32" border="0"/>
+                      </a>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
             <tr>
-              <td>
-                <a href="#" target="_blank" title="Все мероприятия">Все мероприятия</a>
-              </td>
-            </tr>
-          </table>
-
-          <!--Изображение-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <img src="img/people.png" alt="Изображение людей" width="273" height="290" border="0"/>
-              </td>
-            </tr>
-          </table>
-
-          <!--Подвал-->
-          <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-              <td>
-                <!--Социальные сети и контакты-->
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <p><b>Мы&nbsp;в&nbsp;социальных сетях</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                        <tr>
-                          <td>
-                            <a href="#" target="_blank" title="Ссылка на группу Facebook">
-                              <img src="img/icon-facebook.png" alt="Иконка Facebook" width="24" height="24" border="0"/>
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank" title="Ссылка на профиль Instagram">
-                              <img src="img/icon-inst.png" alt="Иконка Instagram" width="24" height="24" border="0"/>
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank" title="Ссылка на Youtube канал">
-                              <img src="img/icon-youtube.png" alt="Иконка Youtube" width="24" height="24" border="0"/>
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank" title="Ссылка на Telegram канал">
-                              <img src="img/icon-telegram.png" alt="Иконка Telegram" width="24" height="24" border="0"/>
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank" title="Ссылка на группу Вконтакте">
-                              <img src="img/icon-vk.png" alt="Иконка Вконтакте" width="24" height="24" border="0"/>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p><b>Свяжитесь с&nbsp;нами</b></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <ul>
-                        <li>
-                          <a href="mailto:study@htmlplay.com" target="_blank" title="Электронная почта">study@htmlplay.com</a>
-                        </li>
-                        <li>
-                          <a href="tel:+78006907668" target="_blank" title="Номер телефона">8-800-690-76-68</a>
-                        </li>
-                      </ul>
-                    </td>
-                  </tr>
-                </table>
-
+              <td style="Margin:0;padding-top:48px;padding-bottom:24px;padding-left:32px;padding-right:32px;">
                 <!--Меню-->
                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
                     <td>
-                      <ul>
-                        <li>
-                          <a href="#" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank" title="Тесты">Тесты</a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank" title="Наш блог">Наш блог</a>
-                        </li>
-                        <li>
-                          <a href="#" target="_blank" title="Истории студентов">Истории студентов</a>
-                        </li>
-                      </ul>
+                      <!--[if mso]>
+                      <table style="width:536px" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td style="width:133px" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:133px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <td align="center">
+                                <a href="#" target="_blank" title="Все курсы"><b>Курсы</b></a>
+                              </td>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:133px;" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:133px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <a href="#" target="_blank" title="Все вебинары"><b>Вебинары</b></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:133px;" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:133px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <a href="#" target="_blank" title="О школе"><b>О&nbsp;школе</b></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:0px;"></td>
+                    <td style="width:133px;" valign="top"><![endif]-->
+                      <table align="right" cellspacing="0" cellpadding="0" border="0"
+                        style="float:right;">
+                        <tr>
+                          <td style="width:133px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <a href="#" target="_blank" title="Распродажа"><b>Распродажа</b></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td></tr></table><![endif]-->
                     </td>
                   </tr>
                 </table>
@@ -369,18 +114,445 @@
             </tr>
             <tr>
               <td>
+                <!--Приветствие-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td bgcolor="#0B379B" style="Margin:0;padding:0;padding-left:32px;padding-right:32px;background-color:#0b379b;">
+                      <!--[if mso]>
+                      <table style="width:536px" cellpadding="0"
+                        cellspacing="0">
+                        <tr>
+                          <td style="width:360px" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="Margin:0;padding:0;padding-top:32px;padding-bottom:24px;width:360px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <p><b>Здравствуйте, {{name}}</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Благодарим вас за&nbsp;регистрацию на&nbsp;курс &laquo;Начальный html+css&raquo;.</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Курс стартует 1&nbsp;июля в&nbsp;17.00 по&nbsp;московскому времени. Письма со&nbsp;ссылками для входа в&nbsp;кабинет
+                                    придут
+                                    на&nbsp;указанную почту за&nbsp;день до&nbsp;старта курса.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:0px"></td>
+                    <td style="width:175px" valign="top"><![endif]-->
+                      <table align="right" cellspacing="0" cellpadding="0" border="0"
+                        style="float:right;">
+                        <tr>
+                          <td style="width:175px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <img src="img/man.png" alt="Разработчик" width="175" height="269" border="0"/>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td></tr></table><![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                <!--Описание курса-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center">
+                      <h2><b>Что вас ждет на&nbsp;курсе</b></h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Вы&nbsp;будете изучать теорию и&nbsp;методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А&nbsp;применить
+                        полученные знания на&nbsp;практике вы&nbsp;сможете, выполняя задания по&nbsp;личному проекту.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>В&nbsp;этом вам будет помогать наставник&nbsp;&mdash; опытный специалист, который проверит домашние задания и&nbsp;поделится
+                        секретами мастерства. А&nbsp;если у&nbsp;вас останутся вопросы, наставник сможет ответить на&nbsp;них
+                        на&nbsp;консультации.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите&nbsp;&mdash; убедиться, что он&nbsp;реализован в&nbsp;соответствии
+                        с&nbsp;техническим заданием.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Желаем вам продуктивной работы на&nbsp;интенсиве и&nbsp;успешной защиты. У&nbsp;вас всё получится, мы&nbsp;в&nbsp;вас
+                        верим!</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                <!--Ведущие курса-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center">
+                      <h2><b>Ведущие курса</b></h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <!--[if mso]>
+                      <table style="width:536px" cellpadding="0"
+                        cellspacing="0">
+                        <tr>
+                          <td style="width:178px" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:178px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <img src="img/expert-1.png" alt="Ведущий Антон Громов" width="88" height="88" border="0"/>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p><b>Антон Громов</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p>Фронтенд-разработчик в&nbsp;Cats Development</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:178px;" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:178px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <img src="img/expert-2.png" alt="Ведущий Илья Раменский" width="88" height="88" border="0"/>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p><b>Илья Раменский</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p>Team Lead в&nbsp;Lizard Software</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:178px;" valign="top"><![endif]-->
+                      <table align="right" cellspacing="0" cellpadding="0" border="0"
+                        style="float:right;">
+                        <tr>
+                          <td style="width:178px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center">
+                                  <img src="img/expert-3.png" alt="Ведущий Игнатий Чубаров" width="88" height="88" border="0"/>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p><b>Игнатий Чубаров</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <p>Преподаватель IT&nbsp;в&nbsp;РУИТ</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td></tr></table><![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                <!--Ожидание начала-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td>
+                      <p>Пока вы&nbsp;ждёте начала курса, вам могут быть интересны вебинары на&nbsp;разные темы, которые проходят на&nbsp;платформе
+                        ежедневно.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:16px;padding-right:16px;">
+                <!--Другие мероприятия-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center">
+                      <h2><b>Другие мероприятия</b></h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="Margin:0;padding-top:24px;padding-bottom:24px;padding-left:16px;padding-right:16px;border:1px solid #02bad3;border-radius:15px">
+                              <tr>
+                                <td>
+                                  <p><b>Тренды frontend-разработки</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p><b>20&nbsp;июня, 17:00</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Самые многообещающие направления развития фронтенда в&nbsp;2020 году</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="Margin:0;padding-top:24px;padding-bottom:24px;padding-left:16px;padding-right:16px;border:1px solid #02bad3;border-radius:15px">
+                              <tr>
+                                <td>
+                                  <p><b>Figma vs&nbsp;Photoshop</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p><b>21&nbsp;июня, 17:00</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Почему давно пора отказаться от&nbsp;последнего?</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="Margin:0;padding-top:24px;padding-bottom:24px;padding-left:16px;padding-right:16px;border:1px solid #02bad3;border-radius:15px">
+                              <tr>
+                                <td>
+                                  <p><b>Что такое Git и&nbsp;как его использовать?</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p><b>22&nbsp;июня, 17:00</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Разберем тонкости использования самой популярной системы контроля версий.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <a href="#" target="_blank" title="Все мероприятия">Все мероприятия</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:16px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                <!--Изображение-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center">
+                      <img src="img/people.png" alt="Изображение людей" width="273" height="290" border="0"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:8px;padding-bottom:32px;padding-left:32px;padding-right:32px;">
+                <!--Социальные сети и навигация-->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td>
+                      <!--[if mso]>
+                      <table style="width:536px" cellpadding="0"
+                        cellspacing="0">
+                        <tr>
+                          <td style="width:268px" valign="top"><![endif]-->
+                      <table align="left" cellspacing="0" cellpadding="0" border="0"
+                        style="float:left;">
+                        <tr>
+                          <td style="width:268px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <p><b>Мы&nbsp;в&nbsp;социальных сетях</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td>
+                                        <a href="#" target="_blank" title="Ссылка на группу Facebook">
+                                          <img src="img/icon-facebook.png" alt="Иконка Facebook" width="24" height="24" border="0"/>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="#" target="_blank" title="Ссылка на профиль Instagram">
+                                          <img src="img/icon-inst.png" alt="Иконка Instagram" width="24" height="24" border="0"/>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="#" target="_blank" title="Ссылка на Youtube канал">
+                                          <img src="img/icon-youtube.png" alt="Иконка Youtube" width="24" height="24" border="0"/>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="#" target="_blank" title="Ссылка на Telegram канал">
+                                          <img src="img/icon-telegram.png" alt="Иконка Telegram" width="24" height="24" border="0"/>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="#" target="_blank" title="Ссылка на группу Вконтакте">
+                                          <img src="img/icon-vk.png" alt="Иконка Вконтакте" width="24" height="24" border="0"/>
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p><b>Свяжитесь с&nbsp;нами</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>
+                                      <a href="mailto:study@htmlplay.com" target="_blank" title="Электронная почта">study@htmlplay.com</a>
+                                    </li>
+                                    <li>
+                                      <a href="tel:+78006907668" target="_blank" title="Номер телефона">8-800-690-76-68</a>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td>
+                    <td style="width:0px"></td>
+                    <td style="width:268px" valign="top"><![endif]-->
+                      <table align="right" cellspacing="0" cellpadding="0" border="0"
+                        style="float:right;">
+                        <tr>
+                          <td style="width:268px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <p><b>Полезные ссылки</b></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>
+                                      <a href="#" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" target="_blank" title="Тесты">Тесты</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" target="_blank" title="Наш блог">Наш блог</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" target="_blank" title="Истории студентов">Истории студентов</a>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]></td></tr></table><![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="Margin:0;padding-top:32px;padding-bottom:32px;padding-left:32px;padding-right:32px;">
                 <!--Сообщение про рассылку-->
                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
                     <td>
                       <p>Вы&nbsp;получили это письмо, так как являетесь пользователем портала HTMLPlay. Рассылка производится в&nbsp;соответствии с&nbsp;пользовательским
-                        соглашением. Если вы&nbsp;не&nbsp;хотите получать рассылку, вы&nbsp;можете <a href="#" target="_blank" title="Отписаться от рассылки">отписаться</a> или <a
+                        соглашением. Если вы&nbsp;не&nbsp;хотите получать рассылку, вы&nbsp;можете <a href="#" target="_blank"
+                          title="Отписаться от рассылки">отписаться</a> или <a
                           href="#" target="_blank" title="Параметры рассылки">настроить параметры</a>.</p>
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>Если письмо отображается некорректно или вы&nbsp;хотите им&nbsp;поделиться, <a href="#" target="_blank" title="Веб-версию письма">жмите сюда</a>.</p>
+                      <p>Если письмо отображается некорректно или вы&nbsp;хотите им&nbsp;поделиться, <a href="#" target="_blank"
+                        title="Веб-версию письма">жмите сюда</a>.</p>
                     </td>
                   </tr>
                 </table>

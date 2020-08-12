@@ -33,6 +33,11 @@
         display: none !important;
       }
 
+      .content-left,
+      .content-right {
+        width: 100% !important;
+      }
+
       .content table,
       .content {
         width: 100% !important;
@@ -46,10 +51,6 @@
 
       table.not-adaptive {
         width: auto !important
-      }
-
-      .mobile-content-p40t {
-        padding-top: 40px !important
       }
 
       .logo {
@@ -78,6 +79,26 @@
         padding-left: 11px !important;
         padding-right: 11px !important;
         padding-top: 11px !important;
+      }
+
+      .mobile-content-p32t {
+        padding-top: 32px !important
+      }
+
+      .mobile-content-p40t {
+        padding-top: 40px !important
+      }
+
+      .mobile-content-p16r {
+        padding-right: 16px !important
+      }
+
+      .mobile-content-p16l {
+        padding-left: 16px !important
+      }
+
+      .mobile-content-hidden {
+        display: none !important;
       }
     }
 
@@ -332,7 +353,8 @@
                     </td>
                   </tr>
                   <tr>
-                    <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
+                    <td class="mobile-content-p16r mobile-content-p16l"
+                      style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
                       <!--Ведущие курса-->
                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
@@ -350,7 +372,7 @@
                               cellspacing="0">
                               <tr>
                                 <td style="width:168px" valign="top"><![endif]-->
-                            <table align="left" cellspacing="0" cellpadding="0" border="0"
+                            <table class="content-left" align="left" cellspacing="0" cellpadding="0" border="0"
                               style="float:left;">
                               <tr>
                                 <td style="width:168px;">
@@ -372,7 +394,7 @@
                                       <td align="center">
                                         <p
                                           style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'trebuchet ms', tahoma, sans-serif;line-height:21px;color:#141414;">
-                                          Фронтенд-разработчик в&nbsp;Cats Development</p>
+                                          Фронтенд-<br/>разработчик в&nbsp;Cats Development</p>
                                       </td>
                                     </tr>
                                   </table>
@@ -381,10 +403,10 @@
                             </table>
                             <!--[if mso]></td>
                           <td style="width:200px;" valign="top"><![endif]-->
-                            <table align="left" cellspacing="0" cellpadding="0" border="0"
+                            <table class="content-left" align="left" cellspacing="0" cellpadding="0" border="0"
                               style="float:left;">
                               <tr>
-                                <td style="width:200px;">
+                                <td class="mobile-content-p32t" style="width:200px;">
                                   <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                       <td align="center">
@@ -412,10 +434,10 @@
                             </table>
                             <!--[if mso]></td>
                           <td style="width:168px;" valign="top"><![endif]-->
-                            <table align="right" cellspacing="0" cellpadding="0" border="0"
+                            <table class="content-right" align="right" cellspacing="0" cellpadding="0" border="0"
                               style="float:right;">
                               <tr>
-                                <td style="width:168px;">
+                                <td class="mobile-content-p32t" style="width:168px;">
                                   <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                       <td align="center">
@@ -434,7 +456,7 @@
                                       <td align="center">
                                         <p
                                           style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'trebuchet ms', tahoma, sans-serif;line-height:21px;color:#141414;">
-                                          Преподаватель&nbsp;IT в&nbsp;РУИТ</p>
+                                          Преподаватель&nbsp;IT<br/> в&nbsp;РУИТ</p>
                                       </td>
                                     </tr>
                                   </table>
@@ -447,7 +469,7 @@
                       </table>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="mobile-content-hidden">
                     <td style="Margin:0;padding-top:48px;padding-bottom:0;padding-left:32px;padding-right:32px;">
                       <!--Ожидание начала-->
                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
